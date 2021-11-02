@@ -1,7 +1,7 @@
 # 100-days-of-development
 
 **Day-0** :- Learned Basics of HTML and History of web development
-:tada: **How The Internet Works**
+1. :tada: **How The Internet Works**
 
 * 1. What happens when you go google
 * 2. Introduction to Networks
