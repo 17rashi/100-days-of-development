@@ -13,8 +13,14 @@
 * 4. IP Addresses
 * 5. HTTP/2
 * 6. What is domain name?
-<<<<<<< HEAD
 * 7. What is hosting?
-=======
-* 7. What is hosting?
->>>>>>> 80743485ce7fec15cf4e8e4e2cf517ef8e44eff8
+
+**Day-1** :- Basics of HTML
+
+* 1. HTML tags
+* 2. Attributes
+* 3. Heading, Paragraphs, Pre tag and Images
+* 4. Elements
+* 5. Favicons
+* 6. Tables
+* 7. Emojis and Charset
