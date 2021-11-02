@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Day-1</title>
+   <link rel="icon" type="image/x-icon" href="/100-days-of-development/2.Day-1/apple-touch-icon.jpg">
+   <style>
+      body{
+         display: inline;
+      }
+      table,th,td{
+         border: 2px solid rgb(133, 133, 143);
+      }
+      /* tr:nth-child(odd)
+      {
+         background-color: rgb(216, 247, 247);
+      } */
+      tr:nth-child(even)
+      {
+         background-color: rgb(182, 231, 231);
+      }
+      th:nth-child(even), td:nth-child(even){
+         background-color: rgb(182, 231, 231);
+      }
+   </style>
+</head>
+<body>
+   <h1>Day-1 for HTML</h1>
+   <p style="font-size: 20px;">First thing I have learned is how to Add Favicon in our website.</p>
+   <a style="text-decoration: none; font-size: 20px;" href="https://google.com" target="_blank">Open Google</a>
+   <br><br>
+   <h1>Vertical and Horizontal Tables</h1>
+   <table ">
+      <tr">
+         <th >Name</th>
+         <th>Section</th>
+         <th>UIDs</th>
+      </tr>
+      <tr>
+         <td>Rashi Shukla</td>
+         <td>20BCS-614</td>
+         <td>20BCS5442</td>
+      </tr>
+      <tr>
+         <td>Kumar Utkarsh</td>
+         <td>20BCS-611</td>
+         <td>20BCS4803</td>
+      </tr>
+      <tr>
+         <td>Shivani Jha</td>
+         <td>20BCS-616</td>
+         <td>20BCS7503</td>
+      </tr>
+      <caption style="caption-side: bottom;">Horizontal Table</caption>
+   </table>
+
+   <h1>Vertical Table</h1>
+   <table style="text-align: center;">
+      <tr>
+         <th>Name</th>
+         <td>Rashi Shukla</td>
+         <td>Kumar Utkarsh</td>
+         <td>Shivani Jha</td>
+      </tr>
+      <tr>
+         <th>Section</th>
+         <td>20BCS-614</td>
+         <td>20BCS-611</td>
+         <td>20BCS-616</td>
+      </tr>
+      <tr>
+         <th>UIDs</th>
+         <td>20BCS5442</td>
+         <td>20BCS4803</td>
+         <td>20BCS7560</td>
+      </tr>
+      <tr>
+         <th>Sn0.</th>
+         <td>20BCS5442</td>
+         <td>20BCS4803</td>
+         <td>20BCS7560</td>
+      </tr>
+      <caption style="caption-side: bottom;">Verical Table</caption>
+   </table>
+   <br>
+   <h1>LISTS</h1>
+   <p>There are three types of lists Ordered, Unordered and Descriptive Lists</p>
+   <pre style="background-color: rgb(230, 227, 227);">
+
+      this
+      is ok
+      Lorem ipsum dolor sit amet, 
+      consectetur adipisicing elit.
+      Omnis voluptates neque recusandae consectetur magnam soluta.
+      Corrupti vitae molestias impedit iste rerum quia. 
+      In ullam, ipsa reprehenderit tempore molestiae veritatis 
+      laboriosam assumenda voluptatum, libero pariatur,
+      excepturi voluptas nostrum rerum doloremque reiciendis!
+   </pre>
+   <h1>Date and Time using JS</h1>
+   <button style="margin-left: 15px; font-size: 15px;" type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click to get date and time</button>
+   <p id="demo"></p>
+   <h1>How to add Emoji</h1>
+   <p>&#128512;</p>
+   <p>&#128151;</p>
+   <p>&#128529;</p>
+</body>
+</html>
