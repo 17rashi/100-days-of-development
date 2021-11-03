@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content=" ">
+   <meta name="kewords" content="100 days of development, web development full course, webdevelopment">
+   <meta name="author" content="Rashi Shukla">
+   <style>
+   #div1 {
+      width: 335px;
+      height: 150px;
+      padding: 5px;
+      border: 1px solid #aaaaaa;
+}
+   </style>
+   <script>
+      function allowDrop(ev)
+      {
+         ev.preventDefault();
+      }
+      function drag(ev)
+      {
+         ev.dataTransfer.setData("text",ev.target.id);
+      }
+      function drop(ev){
+         ev.preventDefault();
+         var data=ev.dataTransfer.getData("text");
+         ev.target.appendChild(document.getElementById(data));
+      }
+   </script>
+   <title>Day-2</title>
+</head>
+<body>
+   <h1>Day-3 for Forms in HTML</h1>
+   <form>
+      <fieldset style="display: inline;">
+         <legend>Fill the form: </legend>
+         <div>
+            <label for="name">NAME: </label>
+            <input type="text" id="name" placeholder="Enter your name">
+         </div>
+         <div>
+            <label for="UID">UID: </label>
+            <input type="number" placeholder="Enter your UID">
+         </div>
+      </fieldset>
+      <br>
+      <fieldset style="display: inline;">
+            <legend>Select any one:</legend>
+            <div>
+               MALE: &nbsp;&nbsp; &nbsp;<input type="radio" id="Male" name="Gender" value="MALE" checked>
+               <br>FEMALE:&nbsp;<input type="radio" id="Female" name="Gender" value="FEMALE">
+               <br>OTHER: &nbsp;<input type="radio" id="Other" name="Gender" value="Other">
+            </div>
+            <textarea id="textarea"></textarea>
+         </fieldset>
+      <div>
+         Select one of them: <br>
+         <input type="checkbox" id="checkbox"checked> select this if you like HTML. <br>
+         <input type="checkbox" id="checkbox"> select this if you like CSS. <br>
+         <input type="checkbox" id="checkbox"> select this if you like JS
+      </div>
+      <br>
+      Choose the correct:
+      <select name="select">
+         <option value="value1" selected>Value 1</option>
+         <option value="value2">Value 2</option>
+         <option value="value3">Value 3</option>
+      </select>
+   </form>
+
+   <h1>Drag and Drop Code</h1>
+   <p>Drag the image in the box</p>
+   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+   </div>
+   <br>
+   <img id="drag1" src="apple-touch-icon.jpg" draggable="true" ondragstart="drag(event)" width="336" height="150">
+</body>
+</html>
