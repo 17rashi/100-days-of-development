@@ -1,6 +1,6 @@
 # 100-days-of-development
 
-=======================================================================================
+========================================================================
 ### **Day-0** :- Learned Basics of HTML and History of web development
 
 1. What happens when you go google
