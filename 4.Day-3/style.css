@@ -1,0 +1,33 @@
+body{
+   box-sizing: border-box;
+   color: rgb(0, 0, 0);
+   display: inline-block;
+   margin: 20px 20px;
+   background-color: snow;
+}
+h1{
+   color: rgb(34, 84, 124);
+}
+p{
+   font-size: 20px;
+}
+
+ol li{
+    color:teal;
+    font-size: 18px;
+    background-color: rgb(243, 227, 208);
+    font-family: cursive;
+}
+ul li{
+   color: rgb(54, 38, 16);
+   background-color: rgb(250, 237, 237);
+   font-size: 20px;
+}
+h3{
+   color: rgb(94, 129, 24);
+
+}
+
+h2{
+   color: teal;
+}
