@@ -36,3 +36,10 @@
 3. Selectors, class and Id
 4. Fonts, Grouping of Selectors
 5. Child Selectors
+
+### **Day-4** :- **Properties of HTML**
+
+1. Colours(Name, RGB, RGBS, Hex, HSL) and Units (vh, vw and rem)
+2. Borders and text-styling
+3. margin and padding
+4. Image in CSS

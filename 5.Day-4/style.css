@@ -1,0 +1,46 @@
+body{
+   display: inline-block;
+}
+#div1{
+   height: 200px;
+   width: 300px;
+   background-color: rgb(159, 159, 214);
+   border: 2px solid red;
+   border-radius: 5%;
+   border-left: 4px solid green;
+   border-bottom: 4px solid green;
+   box-shadow: 4px 4px 4px 4px rgb(211, 197, 216);
+   background-image: url('/5.Day-4/girl-with-laptop.jpg');
+   background-size: contain;
+}
+
+#div2{
+   height: 80%; 
+   /* 100px; */
+   width: 80%;
+   margin: 20px;
+   opacity: 0.5;
+   background-color: tan;
+}
+
+#para1{
+   font-size: 2rem;
+   background-color: rgb(189, 223, 223);
+   font-family: sans-serif;
+   border-left: 4px solid blue;
+   text-shadow: 1px 1px red;
+}
+ol{
+   background-color:rgb(201, 255, 176);
+   padding-bottom: 20px;
+}
+li {
+   font-size: 20px;
+   background-color: rgb(118, 211, 109);
+   padding-bottom: 5px;
+   margin: 20px;
+}
+h2 {
+   background-color: rgb(226, 180, 94);
+   display: inline;
+}
