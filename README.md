@@ -43,3 +43,11 @@
 2. Borders and text-styling
 3. margin and padding
 4. Image in CSS
+
+### **Day-5** :- **All about CSS**
+
+1. Display Properties
+2. Position Properties
+3. Box Model
+4. Min Max width
+5. Dimensioning
