@@ -51,3 +51,8 @@
 3. Box Model
 4. Min Max width
 5. Dimensioning
+
+### **Day-5** :- **Project**
+
+1. Front page of project
+2. Added small CSS.
