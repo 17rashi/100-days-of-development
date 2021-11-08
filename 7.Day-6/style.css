@@ -1,0 +1,114 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('/7.Day-6/background.jpg');
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav img{
+   width: 120px;
+   height: 60px;
+}
+
+.nav-links{
+   flex: 1;
+   text-align: right;
+}
+
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+
+.nav-links ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   
+}
+
+.nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+
+.text-box{
+   width: 90%;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+
+.text-box h1{
+   font-size: 50px;
+}
+
+.text-box p{
+   margin: 10px 0 40px;
+   font-size: 17px;
+   color: white;
+}
+
+.hero-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+   border: 1px solid white;
+   padding: 10px 32px;
+   font-size: 15px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+
+.hero-btn:hover{
+   border: 1px solid red;
+   background: #e6746c;
+   transition: 1s;
+}
+
+@media(max-width: 700px){
+   .text-box h1{
+      font-size: 20px;
+   }
+   .nav-links ul li{
+      display: block;
+   }
+   .nav-links{
+      position: absolute;
+      background: rgb(235, 71, 71);
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: 0;
+      text-align: left;
+      z-index: 2;
+   }
+}
