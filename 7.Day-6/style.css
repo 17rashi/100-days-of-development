@@ -95,7 +95,7 @@ nav img{
 }
 
 nav .fa{
-    
+   color: #e6746c; 
 }
 @media(max-width: 700px){
    .text-box h1{
