@@ -56,3 +56,7 @@
 
 1. Front page of project
 2. Added small CSS.
+
+### **Day-6** :- **Project**
+
+1. Added some more functionality to the web page.

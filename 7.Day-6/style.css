@@ -94,6 +94,9 @@ nav img{
    transition: 1s;
 }
 
+nav .fa{
+    
+}
 @media(max-width: 700px){
    .text-box h1{
       font-size: 20px;
@@ -111,4 +114,5 @@ nav img{
       text-align: left;
       z-index: 2;
    }
+
 }
