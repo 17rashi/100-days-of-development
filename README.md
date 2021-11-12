@@ -60,3 +60,8 @@
 ### **Day-6** :- **Project**
 
 1. Added some more functionality to the web page.
+
+### **Day-7** :- **Project**
+
+1. Completed the project. 
+2. Added responsiveness to the website.
