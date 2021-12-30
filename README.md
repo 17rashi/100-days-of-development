@@ -65,3 +65,9 @@
 
 1. Completed the project. 
 2. Added responsiveness to the website.
+
+### **Day-8** :- **Flex properties of CSS**
+
+1. Flex direction 
+2. Order of elements 
+3. Flex Wrap
