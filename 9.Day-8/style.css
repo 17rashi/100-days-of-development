@@ -1,0 +1,53 @@
+*{
+   margin: 0px;
+}
+#container{
+   width: 75vh;
+   height: auto;
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: rgb(180, 179, 179);
+   flex-wrap: wrap;
+}
+#container div{
+   height: 200px;
+   width: 200px;
+}
+#Div-1{
+   background-color: wheat;
+}
+#Div-2{
+   background-color: violet;
+}
+#Div-3{
+   background-color: steelblue;
+}
+#Div-4{
+   background-color: seagreen;
+}
+#Div-5{
+   order: -3;
+   background-color: rgb(214, 133, 133);
+}
+section{
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
+}
+#main div{
+   width: 110vh;
+   font-size: 40px;
+   margin: 30px;
+   background-color: rgb(196, 216, 223);
+   padding: 20px;
+}
+
+#last{
+   height: auto;
+   width: 140vh;
+   font-size: 20px;
+   margin: 30px;
+   padding: 20px;
+   background-color: rgb(120, 185, 185);
+   border: 2px solid red;
+}
