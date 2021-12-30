@@ -8,6 +8,18 @@
    flex-direction: row-reverse;
    background-color: rgb(180, 179, 179);
    flex-wrap: wrap;
+   margin: 30px;
+}
+h2{
+   font-size: 35px;
+   margin: 20px;
+   margin-left: 600px;
+   background-color: rgb(118, 164, 216);
+   display: inline-block;
+   text-align: center;
+   padding: 10px;
+   font-family:'Courier New', Courier, monospace;
+   border: 3px solid rgb(163, 91, 91);
 }
 #container div{
    height: 200px;
