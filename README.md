@@ -76,5 +76,5 @@
 
 1. Flex grow and Flex shrink
 2. Flex justify content
-3. Align Content
-4. Flex-align items
+3. Flex-align items
+4. Align Content
