@@ -1,0 +1,142 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+#headings{
+   margin: 20px;
+   font-size: 30px;
+}
+
+#container{
+   height: 300px;
+   width: 300px;
+   background-color: lightgray;
+   display: flex;
+}
+
+#container div{
+   height: 200px;
+   width: 200px;
+   display: flex;
+}
+#div-1{
+   background-color: tomato;
+   /* flex-grow: 4; */
+   flex-shrink: 4;
+}
+#div-2{
+   background-color:sandybrown;
+   /* flex-grow: 1; */
+   flex-shrink: 1;
+}
+/* container -2*/
+
+#container-2{
+   height: 800px;
+   width: 800px;
+   background-color: lightgray;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+   justify-content: space-around;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+#container-2 div{
+   height: 200px;
+   width: 200px;
+   display: flex;
+   justify-content: center;
+}
+
+#div-21{
+   background-color: rgb(250, 111, 111);
+   
+}
+#div-22{
+   background-color: rgb(16, 136, 136);
+
+}
+#div-32{
+   background-color: rgb(93, 172, 127);
+
+}
+
+/*Footer
+.skills{
+   display: flex;
+   background-color: lightgray;
+   flex-direction: row;
+   width: 100px;
+   border-radius: 25%;
+   height: auto;
+   padding: 5px;
+   margin: 20px;
+}
+
+#cppskills{
+   background-color: violet;
+   width: 80%;
+   height: auto;
+   border-radius: 25%;
+
+}
+*/
+
+#person-skills{
+   display: flex;
+   flex-wrap: wrap;
+   height: 250px;
+   width: 800px;
+   flex-direction: column;
+   margin-left: 400px;
+   border: 2px solid black;
+   /* flex-wrap: wrap; */
+   align-items: center;
+   justify-content: baseline;
+   background-color: rgb(233, 231, 231);
+}
+#heading-skills{
+   color: rgb(8, 8, 65);
+   margin: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: flex;
+   justify-content: center;  
+}
+
+.skill-progress{
+   width: 9rem;
+   height: 1.4rem;
+   background-color: lightgray;
+   border-radius: 0.8rem;
+   margin: 20px;
+   padding: 0.2rem;
+}
+
+.skill-progress>div{
+   border-radius: 20px 0px 0px 20px;
+}
+.skill-name span{
+   font-size: 1.32rem;
+   color: white;
+   margin-left: 5px;
+}
+.eighty-five-percent{
+   width: 85%;
+   background-color: rgb(13, 13, 99);
+}
+.eighty-percent{
+   width: 80%;
+   background-color: rgb(17, 85, 85);
+}
+.fifty-percent{
+   width: 50%;
+   background-color: rgb(49, 17, 85);
+}
+
+.seventy-percent{
+   width: 70%;
+   background-color: rgb(104, 27, 91);
+}
