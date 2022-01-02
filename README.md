@@ -71,3 +71,10 @@
 1. Flex direction 
 2. Order of elements 
 3. Flex Wrap
+
+### **DAY-9** :- **Flex properties**
+
+1. Flex grow and Flex shrink
+2. Flex justify content
+3. Align Content
+4. Flex-align items
