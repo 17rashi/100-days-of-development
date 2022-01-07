@@ -78,3 +78,11 @@
 2. Flex justify content
 3. Flex-align items
 4. Align Content
+
+## **Day-10** :- **Animaions and 3d Space**
+
+1. Transitions and Transformation
+2. Simple Animation
+3. 3rd Animation
+4. Rotate Animation
+5. 3d Cube Animation
