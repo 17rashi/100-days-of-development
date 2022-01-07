@@ -1,0 +1,158 @@
+/*Transition and Tranformation effect*/
+
+#div1{
+   height: 200px;
+   width: 200px;
+   color: aliceblue;
+   display: block;
+   padding: 10px;
+   margin: 20px;
+   font-size: 40px;
+   background-color: rgb(0, 0, 0);
+   transform: rotate(0deg);
+   transition: 2s;
+}
+
+#div1:hover{
+   transform: rotate(360deg);
+}
+
+/*Simple Animation*/
+
+#div2{
+   height: 100px;
+   width: 100px; 
+   background-color:seagreen;
+   padding: 10px;
+   margin: 20px;
+}
+
+#div2:hover{
+   margin-left: 200px;
+   transition: 2s;
+   /* height: 200px;
+   width: 200px; */
+   transform: scale(1.5) translate(120px);
+   border-radius: 50%;
+}
+
+/*3rd-simple Animation*/
+@keyframes changePosition {
+   0%{
+      transform: scaleY(0);
+   }
+   75%{
+      transform: scaleY(0.5);
+   }
+   100%{
+      transform: scaleY(1);
+   }
+}
+#div3{
+   background-color: teal;
+   width: 200px;
+   height: 200px;
+   animation: changePosition 2s ease-in-out infinite alternate;
+}
+
+/*Rotate Animation*/
+
+@keyframes changeRotate {
+   0%{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      transform: rotate(0deg);
+   }
+   25%{
+      width: 100px;
+      height: 100px;
+      border-radius: 60%;
+      transform: rotate(0deg);
+   }
+   60%{
+      width: 100px;
+      height: 100px;
+      border-radius: 20%;
+      transform: rotate(0deg);
+   }
+   100%{
+      border-radius: 0%;
+      transform: rotate(360deg)
+   }
+}
+
+#div4{
+   width: 200px;
+   height: 200px;
+   background-color: steelblue;
+   animation: changeRotate 1.5s ease-in-out infinite alternate;
+}
+
+/*Starting with 3d Cube Animation*/
+@keyframes changeRotation {
+   0%{
+      transform: rotateZ(110deg);
+   }
+   0%{
+      transform: rotateY(160deg);
+   }
+   50%{
+      transform: rotateX(210deg);
+   }
+   75%{
+      transform: rotateY(320deg);
+   }
+   100%{
+      transform: rotateZ(340deg);
+   }
+}
+.cube{
+   height: 200px;
+   width: 200px;
+   position: relative;
+   margin: 100px;
+   transform-style: preserve-3d;
+   perspective: 1000px;
+   transform: rotateX(25deg) rotateY(-25deg);
+   transform: rotate(120deg);
+   animation: changeRotation 2s ease-in-out infinite alternate;
+}
+
+.face{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   transition: all 1s;
+   /* transform-style: preserve-3d;
+   perspective: 1000px; */
+}
+
+.one{
+   background-color: rgb(106, 106, 223);
+}
+.two{
+   background-color: orange;
+   transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+}
+
+.three{
+   background-color: red;
+   transform: rotateY(90deg) translateZ(100px) translateX(-100px);
+}
+
+.four{
+   background-color: rgb(255, 0, 200);
+   transform: rotateX(90deg) translateY(100px) translateZ(100px);
+}
+.five{
+   background-color: rgb(80, 156, 45);
+   transform: rotateX(90deg) translateZ(-100px) translateY(100px);
+}
+.six{
+   background-color: teal;
+   transform: rotateZ(90deg) translateZ(100px) translateZ(100px);
+}
+
