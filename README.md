@@ -94,3 +94,11 @@
 3. Bootstrap Breakpoints
 4. Bootstrap Grid System
 
+## **Day-12** :- **Completed Bootstrap**
+
+1. Code using Bootstrap Grid system
+2. Margin and display utilities
+3. Utility classes- background colour, border, sizing option
+4. Bootstrap Components- buttons, cards, collapse and modals
+5. Navigation- Navs, navbars
+6. Jumbotron class
