@@ -102,3 +102,18 @@
 4. Bootstrap Components- buttons, cards, collapse and modals
 5. Navigation- Navs, navbars
 6. Jumbotron class
+
+## **Day-13** :- **Major Project**
+
+For designing a complete website what a web deveoper should do? 
+Here are some important point that one should take care of.
+1. Setting goals and targets
+2. figuring out what to implement
+   -> Features
+   -> Screens
+3. Design 1. Breakpoints/approach and Wireframes
+   -> Low Fidelity
+   -> High Fidelity
+5. Development 
+6. Launch 
+7. Maintenance
