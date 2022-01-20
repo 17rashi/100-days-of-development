@@ -117,3 +117,13 @@ Here are some important point that one should take care of.
 5. Development 
 6. Launch 
 7. Maintenance
+
+## **Day-14** :- **Starting with Javascript**
+
+1. History of Js
+2. Initial name of Js
+3. Basic data types and Error on execution
+4. Null vs Undefined
+5. Operators
+6. Conditional Statement
+7. Loops
