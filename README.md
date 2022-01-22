@@ -127,3 +127,10 @@ Here are some important point that one should take care of.
 5. Operators
 6. Conditional Statement
 7. Loops
+
+## **Day-15** :- **Javascript - Functions and arrays**
+
+1. Functions
+2. Functions and Scope
+3. Function within function
+4. Arrays and iterating over arrays
