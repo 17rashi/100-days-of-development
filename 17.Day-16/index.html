@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Object and timimg events</title>
+</head>
+<body>
+   <p>var student = {name : "ABC", rollNo: 13, marks: 30};</p>
+   <div>
+      To access the object property, you can use . operator<br>
+      <b>Example: </b> student.name and student["marks"];
+   </div><br><br>
+   var student = {name: "ABC", rollNo : 1, sem : 4, marks : 300};<br>
+   function printProperty(obj, prop){<br>
+      &nbsp;&nbsp;console.log(obj[prop]);<br>
+   }<br>
+   <br>var prop ="marks";
+   <br>printProperty(student, prop);
+   <br>300
+
+   <div>
+      To delete a property you can use <b>delete student.marks.</b>
+   </div>
+
+</body>
+</html>
