@@ -134,3 +134,10 @@ Here are some important point that one should take care of.
 2. Functions and Scope
 3. Function within function
 4. Arrays and iterating over arrays
+
+## **Day-16** :- **Objects and Timimg Events**
+
+1. Objects
+2. Arrays and objects
+3. keys and properties of objects, arrays and functions
+4. Countdown timer
