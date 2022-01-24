@@ -141,3 +141,10 @@ Here are some important point that one should take care of.
 2. Arrays and objects
 3. keys and properties of objects, arrays and functions
 4. Countdown timer
+
+## **Day-17** :- **Document Object Model**
+
+1. DOM
+2. Accessing DOM
+3. Event handling
+4. Strict Mode in Js
