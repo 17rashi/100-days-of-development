@@ -148,3 +148,8 @@ Here are some important point that one should take care of.
 2. Accessing DOM
 3. Event handling
 4. Strict Mode in Js
+
+## **Day-18** :- **Two small projects**
+
+1. Expanding cards project.
+2. Progress Step
