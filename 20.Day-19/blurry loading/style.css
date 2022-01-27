@@ -1,0 +1,29 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-size: 30px;
+}
+
+.container{
+   background: url('restaurant.jfif') no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100vw;
+   height: 100vh;
+   z-index: -1;
+   filter: blur(0px);
+}
+
+.loading{
+   color: white;
+   font-weight: bolder;
+}
