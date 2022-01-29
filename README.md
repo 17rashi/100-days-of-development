@@ -153,3 +153,9 @@ Here are some important point that one should take care of.
 
 1. Expanding cards project.
 2. Progress Step
+
+## **Day-19** :- **Projects Related to Js**
+
+1. Blurry Loading
+2. Split Landing Page
+3. Wave Form Animation
