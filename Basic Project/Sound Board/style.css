@@ -1,0 +1,36 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(103, 179, 179);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 100vh;
+   flex-direction: column;
+   overflow: hidden;
+   margin: 0;
+   text-align: center;
+}
+
+.btn{
+   background-color:rgb(49, 122, 119);
+   border-radius: 5px;
+   border: none;
+   color: white;
+   margin: 1rem;
+   padding: 1.5rem 3rem;
+   font-family: inherit;
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+
+.btn:hover{
+   opacity: 0.9;
+}
+
+.btn:focus{
+   outline: none;
+}
