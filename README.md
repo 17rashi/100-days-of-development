@@ -79,7 +79,7 @@
 3. Flex-align items
 4. Align Content
 
-## **Day-10** :- **Animaions and 3d Space**
+### **Day-10** :- **Animaions and 3d Space**
 
 1. Transitions and Transformation
 2. Simple Animation
@@ -87,14 +87,14 @@
 4. Rotate Animation
 5. 3d Cube Animation
 
-## **Day-11** :- **Bootstrap**
+### **Day-11** :- **Bootstrap**
 
 1. what are Frontend Framework
 2. Getting started with Bootstrap
 3. Bootstrap Breakpoints
 4. Bootstrap Grid System
 
-## **Day-12** :- **Completed Bootstrap**
+### **Day-12** :- **Completed Bootstrap**
 
 1. Code using Bootstrap Grid system
 2. Margin and display utilities
@@ -103,7 +103,7 @@
 5. Navigation- Navs, navbars
 6. Jumbotron class
 
-## **Day-13** :- **Major Project**
+### **Day-13** :- **Major Project**
 
 For designing a complete website what a web deveoper should do? 
 Here are some important point that one should take care of.
@@ -118,7 +118,7 @@ Here are some important point that one should take care of.
 6. Launch 
 7. Maintenance
 
-## **Day-14** :- **Starting with Javascript**
+### **Day-14** :- **Starting with Javascript**
 
 1. History of Js
 2. Initial name of Js
@@ -128,34 +128,40 @@ Here are some important point that one should take care of.
 6. Conditional Statement
 7. Loops
 
-## **Day-15** :- **Javascript - Functions and arrays**
+### **Day-15** :- **Javascript - Functions and arrays**
 
 1. Functions
 2. Functions and Scope
 3. Function within function
 4. Arrays and iterating over arrays
 
-## **Day-16** :- **Objects and Timimg Events**
+### **Day-16** :- **Objects and Timimg Events**
 
 1. Objects
 2. Arrays and objects
 3. keys and properties of objects, arrays and functions
 4. Countdown timer
 
-## **Day-17** :- **Document Object Model**
+### **Day-17** :- **Document Object Model**
 
 1. DOM
 2. Accessing DOM
 3. Event handling
 4. Strict Mode in Js
 
-## **Day-18** :- **Two small projects**
+### **Day-18** :- **Two small projects**
 
 1. Expanding cards project.
 2. Progress Step
 
-## **Day-19** :- **Projects Related to Js**
+### **Day-19** :- **Projects Related to Js**
 
 1. Blurry Loading
 2. Split Landing Page
 3. Wave Form Animation
+
+========================================================================
+
+## **30-35 basic projects of HTML, CSS, JavaScript and API's for better understanding of JavaScript & CSS.**
+
+1. Sound Board
