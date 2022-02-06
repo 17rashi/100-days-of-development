@@ -165,3 +165,4 @@ Here are some important point that one should take care of.
 ## **30-35 basic projects of HTML, CSS, JavaScript and API's for better understanding of JavaScript & CSS.**
 
 1. Sound Board
+2. Event keyCodes
