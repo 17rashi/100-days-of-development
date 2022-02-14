@@ -167,3 +167,4 @@ Here are some important point that one should take care of.
 1. Sound Board
 2. Event keyCodes
 3. FAQ Collapse
+4. Random Choice Picker
