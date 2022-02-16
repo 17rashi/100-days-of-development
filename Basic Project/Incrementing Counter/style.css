@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   background-color: rgb(156, 95, 156);
+   overflow: hidden;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   color: white;
+}
+
+.counter-container{
+   display: flex;
+   flex-direction: column;
+   margin: 30px 50px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.counter{
+   font-size: 60px;
+   margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+   .container{
+      flex-direction: column;
+      overflow: scroll;
+   }
+}
