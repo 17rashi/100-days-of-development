@@ -168,3 +168,11 @@ Here are some important point that one should take care of.
 2. Event keyCodes
 3. FAQ Collapse
 4. Random Choice Picker
+5. Increment Counter
+
+### **Day-20** :- **Started Revising JavaScript with Documentation**
+
+1. Introduction
+2. DOM, APIs
+3. Defer Atrribute
+4. Variables and functions 
