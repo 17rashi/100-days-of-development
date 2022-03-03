@@ -1,0 +1,38 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   margin: 20px;
+   overflow: hidden;
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+
+button{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgb(129, 201, 201);
+   border-radius: 1rem;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   border-color: rgba(100, 151, 175, 0.3);
+   border: 2px solid teal;
+   display: inline-block;
+   cursor: pointer;
+}
+
+ol{
+   font-weight: bold;
+}
+
+pre{
+   background-color: rgb(240, 238, 238);
+   display: inline-block;
+   margin: 10px;
+   padding: 5px;
+   padding: 2px;
+}

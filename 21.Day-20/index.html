@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Basics of Javascript in detail</title>
+   <link href="style.css" type="text/css" rel="stylesheet">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <!-- <button>Click me</button> -->
+   <h2>A high-definition language</h2>
+   <p>Javascript is a scripting language that allows you to implement complex features on webpage<br>
+   <strong>Example: </strong>displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.</p>
+
+   <section id="section2">
+      <button id="name">Player 1: chris</button>
+   </section>
+
+   <section id="section2">
+      <h2>API</h2>
+      <ol type="i">
+         <li>DOM(Document Object Model)</li>
+         <li>Geolocation API</li>
+         <li>Canvas and WebGL</li>
+         <li>Audio and Video APIs</li>   
+      </ol>
+   </section>
+
+   <h2>Running Order</h2>
+   <p>It generally runs from top to bottom.</p>
+   
+   <pre><code>
+   const name1 = document.getElementById('name');
+
+   name1.addEventListener('click',updateName);
+
+   function updateName(){
+      const newName=prompt('Enter a new name');
+      name1.textContent=`Player 1: ${newName}`;
+   }
+   </code>
+   </pre>
+   <!-- <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      function createParagraph() {
+      const para = document.createElement('p');
+      para.textContent = 'You clicked the button!';
+      document.body.appendChild(para);
+      }
+   
+      const buttons = document.querySelectorAll('button');
+   
+      for (const button of buttons) {
+      button.addEventListener('click', createParagraph);
+      }
+   });
+   </script> -->
+   <!-- <script src="script.js"></script> -->
+</body>
+</html>
