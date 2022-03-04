@@ -176,3 +176,9 @@ Here are some important point that one should take care of.
 2. DOM, APIs
 3. Defer Atrribute
 4. Variables and functions 
+
+### **Day-21** :- **Created a Guessing Game**
+
+1. Learnt about functions in detail
+2. Random Number
+3. Events and objects
