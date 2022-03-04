@@ -1,0 +1,25 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   overflow: hidden;
+   font-size: 15px;
+}
+
+.container{
+   border: 1px solid rgb(48, 45, 45);
+   padding: 20px;
+   box-shadow: 5px 5px rgba(212, 188, 188, 0.5);
+   border-radius: 20px;
+}
+
+.btn{
+   margin: 10px;
+   padding: 1px 15px;
+}
+

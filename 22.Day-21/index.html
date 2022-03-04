@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>A first splash into JavaScript</title>
+   <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <div class="container">
+      <h1>NUMBER GUESSING GAME</h1>
+      <P>We have selected a random number between 1 and 100. See if you<br> can guess it in 10 turns or fewer. We'll tell you if your guess was<br> too high or too low.</P>
+      <div class="form">
+         <label for="guessField">Enter a guess: </label>
+         <input id="guessField" class="guessField" type="text" placeholder="Enter a number here">
+         <input type="submit" value="Submit guess" class="guessSubmit">
+      </div>
+
+      <div class="resultParas">
+         <p class="guesses"></p>
+         <p class="lastResult"></p>
+         <p class="loworHigh"></p>
+       </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
