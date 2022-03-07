@@ -182,3 +182,9 @@ Here are some important point that one should take care of.
 1. Learnt about functions in detail
 2. Random Number
 3. Events and objects
+
+### **Day-22** :- **Errors and troubleshooting**
+
+1. Types of errors: syntax and logical
+2. Case Sensitive: addeventListener doesn't work (addEventListener will)
+3. Example of Syntax Errors 
