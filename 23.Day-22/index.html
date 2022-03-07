@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>A first splash into JavaScript</title>
+   <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <section class="container">
+      <h1>ERRORS IN JAVASCRIPT</h1>
+      <p>We generally encounter two types of error in JavaScript i.e., <strong>Logical Error and Syntax Error.</strong></p>
+      <strong>Some imp points</strong>
+      <li>Javascript is case sensitive i.e., addeventListener and addEventListener is not same.</li>
+      <li>Use console log to check the error</li>
+      <li>Use operators properly. like, === and = is not same.</li>
+      <br>
+      To read more about errors check <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong#syntaxerror_missing_before_statement">Errors in JS</a>
+   </section>
+
+   <div id="container" class="container">
+      <h1>NUMBER GUESSING GAME</h1>
+      <P>We have selected a random number between 1 and 100. See if you<br> can guess it in 10 turns or fewer. We'll tell you if your guess was<br> too high or too low.</P>
+      <div class="form">
+         <label for="guessField">Enter a guess: </label>
+         <input id="guessField" class="guessField" type="text" placeholder="Enter a number here">
+         <input type="submit" value="Submit guess" class="guessSubmit">
+      </div>
+
+      <div class="resultParas">
+         <p class="guesses"></p>
+         <p class="lastResult"></p>
+         <p class="loworHigh"></p>
+       </div>
+   </div>
+
+   <div class="container1">
+      <h2>Example of different types of errors</h2>
+      <br>
+      <li>Syntax Errors: </li>
+      <ol>
+         <li>TypeError: &nbsp; guessSubmit.addeventListener is not a function (this is due to incorrect spelling mistake.)</li>
+         <li>TypeError:&nbsp; lowOrHi is null (if we assign wrong value like string in integer)</li>
+         <li>TypeError: Cannot set properties of null (setting 'textContent') (This error occurs due to incorrect class name)</li>
+         <li>SyntaxError: expected expression, got 'string' or SyntaxError: unterminated string literal</li>
+      </ol>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
