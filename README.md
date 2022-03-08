@@ -186,5 +186,12 @@ Here are some important point that one should take care of.
 ### **Day-22** :- **Errors and troubleshooting**
 
 1. Types of errors: syntax and logical
-2. Case Sensitive: addeventListener doesn't work (addEventListener will)
+2. Case Sensitive: addeventListener doesn't work (addEventListener does)
 3. Example of Syntax Errors 
+
+### **Day-23** :- **Variables**
+
+1. Variable Example
+2. let, var and hoisting
+3. Constant in JavaScript
+4. difference between Const and Let
