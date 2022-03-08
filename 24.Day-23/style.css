@@ -1,0 +1,16 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family:Arial, Helvetica;
+   margin: 60px 60px;
+   display: flex;
+   height: 100vh;
+   /* align-items: center; */
+   /* justify-content: center; */
+   flex-direction: column;
+   overflow-x: hidden;
+}
+
+
