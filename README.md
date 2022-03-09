@@ -195,3 +195,9 @@ Here are some important point that one should take care of.
 2. let, var and hoisting
 3. Constant in JavaScript
 4. difference between Const and Let
+
+### **Day-24** :- **Basic Maths for JavaScript**
+
+1. Data types in Js
+2. Numbers, set precision and convert string to a number
+3. Arithmetic Operators, Assignment Operators and Comparison Operators
