@@ -201,3 +201,10 @@ Here are some important point that one should take care of.
 1. Data types in Js
 2. Numbers, set precision and convert string to a number
 3. Arithmetic Operators, Assignment Operators and Comparison Operators
+
+### **Day-25** :- **Handling text — strings in JavaScript**
+
+1. String Basics
+2. Concatenating strings
+3. Conversion -> string to number and number to string
+4. Multiline Strings
