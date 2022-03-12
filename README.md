@@ -208,3 +208,11 @@ Here are some important point that one should take care of.
 2. Concatenating strings
 3. Conversion -> string to number and number to string
 4. Multiline Strings
+
+### **Day-26** :- **Useful string methods**
+
+1. Finding length of string
+2. Testing if a string contains a substring
+3. Extracting a substring from a string and changing case
+4. Updating a part of a string.
+5. [Some test and example](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Strings#strings_4)
