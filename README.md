@@ -216,3 +216,10 @@ Here are some important point that one should take care of.
 3. Extracting a substring from a string and changing case
 4. Updating a part of a string.
 5. [Some test and example](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_skills:_Strings#strings_4)
+
+### **Day-27** :- **Arrays**
+
+1. Creating Arrays and finding its length
+2. Finding items and adding items in Array
+3. Accessing every element and mapping 
+4. Conversion between Arrays and Strings
