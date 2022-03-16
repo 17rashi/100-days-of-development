@@ -223,3 +223,10 @@ Here are some important point that one should take care of.
 2. Finding items and adding items in Array
 3. Accessing every element and mapping 
 4. Conversion between Arrays and Strings
+
+### **Day-28** :- **Conditional Statements**
+
+1. If and else statements, nested if else
+2. Break and switch statements
+3. Logical Operators
+4. Ternary Operators
