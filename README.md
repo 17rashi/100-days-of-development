@@ -231,3 +231,11 @@ Here are some important point that one should take care of.
 3. Logical Operators
 4. Ternary Operators
 5. Basic calender Project.
+
+### **Day-29** :- **Looping statements**
+
+1. Iteration and traversing.
+2. Map and filter
+3. For, while and do while
+4. Break and Continue
+5. practiced some assessment
