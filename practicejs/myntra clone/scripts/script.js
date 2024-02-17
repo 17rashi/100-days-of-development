@@ -1,38 +1,37 @@
 let bagItems;
 onLoad();
 
-function onLoad(){
-  let bagItemsStr = localStorage.getItem('bagItems');
+function onLoad() {
+  let bagItemsStr = localStorage.getItem("bagItems");
   bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
   displayItemOnHomePage();
   displayBagIcon();
 }
 
-function addToBag(itemId){
+function addToBag(itemId) {
   bagItems.push(itemId);
-  localStorage.setItem('bagItems', JSON.stringify(bagItems));
+  localStorage.setItem("bagItems", JSON.stringify(bagItems));
   displayBagIcon();
 }
 
-function displayBagIcon(){
-  let bagItemCountElement = document.querySelector('.bag-item-count');
-  if(bagItems.length > 0){
-    bagItemCountElement.style.visibility = 'visible';
+function displayBagIcon() {
+  let bagItemCountElement = document.querySelector(".bag-item-count");
+  if (bagItems.length > 0) {
+    bagItemCountElement.style.visibility = "visible";
     bagItemCountElement.innerHTML = bagItems.length;
-  }
-  else{
-    bagItemCountElement.style.visibility = 'hidden';
+  } else {
+    bagItemCountElement.style.visibility = "hidden";
   }
 }
 
-function displayItemOnHomePage(){
-  let itemsContainerElement = document.querySelector('.items-container');
-  
-  if(!itemsContainerElement){
+function displayItemOnHomePage() {
+  let itemsContainerElement = document.querySelector(".items-container");
+
+  if (!itemsContainerElement) {
     return;
   }
-  let innerHtml = '';
-  items.forEach(item => {
+  let innerHtml = "";
+  items.forEach((item) => {
     innerHtml += `
     <div class="item-container">
     <img class="item-image" src="${item.image}" alt="item image">
@@ -48,8 +47,8 @@ function displayItemOnHomePage(){
     </div>
     <button class="btn-add-bag" onClick="addToBag(${item.id})">Add to Bag</button>
   </div>
-    `
+    `;
   });
-  
+
   itemsContainerElement.innerHTML = innerHtml;
 }

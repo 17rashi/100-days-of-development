@@ -1,0 +1,24 @@
+Learning nodejs from today
+
+- 16/feb/2024
+
+
+NODEJS tutorials 
+
+what is npm - it is a mall // in layman language 
+npm is node package manager. It's an open source registry, library or command line interface for Javascript software packages.
+
+package.json - it consist list of packages and their versions. contains the information of all packages inside node modules.
+package-log.json - ensure details of every package installed with their sub-versions, sub dependencies, and other details of every package.
+
+Both the files work together for smooth development and installation of project. 
+
+
+nodemon library - it keep the running file updated.
+
+
+Callback functions
+it is a basic function which is called by some other function. 
+
+
+Lodash - it is a library to use vector filters and other filters like unique and sort. it is use for data manipulation and management.

@@ -1,0 +1,21 @@
+.heading-container{
+  font-weight: bolder;
+  font-size: 10px;
+  margin: 20px;
+}
+
+input{
+  width: 100%;
+}
+
+.item-container{
+  text-align: left;
+}
+
+.kg-button{
+  min-width: 80px;
+}
+
+.kg-row{
+  margin: 10px 5px;
+}

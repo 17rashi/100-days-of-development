@@ -1,0 +1,16 @@
+{
+  "name": "first_node_tutorial",
+  "version": "1.0.0",
+  "description": "starting with learning nodejs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rashi Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
